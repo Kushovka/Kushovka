@@ -1,32 +1,54 @@
-name: Deploy to GitHub Pages
+# GitHub Action for generating a contribution graph with a snake eating your contributions.
+
+name: Generate Snake
+
+# Controls when the action will run. This action runs every 6 hours.
 
 on:
-  push:
-    branches:
-      - main  # Триггер на пуш в ветку main
+  schedule:
+      # every 6 hours
+    - cron: "0 */6 * * *"
 
+# This command allows us to run the Action automatically from the Actions tab.
+  workflow_dispatch:
+
+# The sequence of runs in this workflow:
 jobs:
-  deploy:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+    # Generates the snake  
+      - uses: Platane/snk@master
+        id: snake-gif
         with:
-          node-version: '14'  # Используем версию Node.js, подходящую для проекта
+          github_user_name: mishmanners
+          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Install dependencies
-        run: npm install  # Если у тебя есть зависимости для проекта
+     # show the status of the build. Makes it easier for debugging (if there's any issues).
+      - run: git status
 
-      - name: Build the project
-        run: npm run build  # Если у тебя используется процесс сборки, например, Vite или Webpack
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.3
+      # Push the changes
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          branch: gh-pages  # Ветка, на которую будет отправлен билд (можно использовать другую)
-          folder: dist  # Папка с результатом сборки (например, dist или build)
-          token: ${{ secrets.GITHUB_TOKEN }}  # Используется для аутентификации с GitHub Pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
