@@ -11,4 +11,5 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=Kushovka&icon=0&color=0)](https://visitcount.itsvg.in)
 
+<img alt="github-snake" src="https://raw.githubusercontent.com/v1ih/v1ih/output/github-snake.svg" />
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
