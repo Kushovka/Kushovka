@@ -48,10 +48,13 @@
 <div align="center">
     <h1>📊 GitHub Stats</h1>
     </br>
-<img src="https://github-readme-stats.vercel.app/api?username=Kushovka&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false" width="55%" /> </br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=Kushovka&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false" width="55%" />
+<img src="https://github.com/user-attachments/assets/6becd27d-6715-4ed6-9cff-c4ad71caae01" width="36%" />  </br>
 <img src="https://nirzak-streak-stats.vercel.app/?user=Kushovka&theme=nightowl&hide_border=false" width="50%" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kushovka&theme=nightowl&hide_border=false&include_all_commits=false&count_private=false&layout=compact" width="42.2%" /> </br>
-    
+    ![fon](https://github.com/user-attachments/assets/6becd27d-6715-4ed6-9cff-c4ad71caae01)
+
 </div>
 
  
