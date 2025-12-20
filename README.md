@@ -1,7 +1,8 @@
 
 <h1>🛠️ Tech Stack</h1> 
 <br>
-
+<div align="center">
+  
 [![My Skills](https://skillicons.dev/icons?i=react,js,html,css,tailwind,sass,redux,reactrouter,vite,nodejs,threejs,figma,blender,git,github,jquery&perline=8)](https://skillicons.dev)
 
 <details>
@@ -23,6 +24,7 @@
 </div>
 
 </details>
+</div>
 
 
 <div align="center">
