@@ -37,25 +37,6 @@
 </div>
 
  
-<div align="center">
-<h1>☎️ Connect with me </h1>
-    </br>
-        <a href="https://t.me/kushovka">
-<img src="https://img.shields.io/badge/Telegram-%2304A1F7.svg?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-        </a>
-        <a href="https://www.instagram.com/kushovka">
-<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-        </a>
-        <a href="mailto:kushovk2003@mail.ru">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
-        </a>
-           </a>
-        <a href="https://www.linkedin.com/in/kirill-kushov-9714b9364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-</div>
-</br></br>
-
 
 <!-- Snake Animation -->
 <div align="center">
