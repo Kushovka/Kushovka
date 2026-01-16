@@ -41,8 +41,8 @@
  
 
 <!-- Snake Animation -->
-<div align="center">
+<!-- <div align="center">
     
   ![snake gif](https://github.com/TechnologyHell/TechnologyHell/blob/output/github-snake-dark.svg)
-</div>
+</div> -->
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
