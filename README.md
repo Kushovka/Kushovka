@@ -62,5 +62,5 @@ My development priorities:
 ## Contact
 
 - GitHub: [github.com/Kushovka](https://github.com/Kushovka)
-- Telegram: `@your_telegram`
-- Email: `your_email@example.com`
+- Telegram: `@kushovka`
+- Email: `kkushov2003@gmail.com`
