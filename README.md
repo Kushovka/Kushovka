@@ -29,28 +29,6 @@ My main strength is turning product requirements into working systems: authentic
 ![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
 
-## Featured Project
-
-### Student App
-
-A school discipline and student management platform built as a fullstack MVP.
-
-The system includes:
-
-- JWT authentication
-- Admin and teacher roles
-- School-based data isolation
-- Student and class management
-- Behavior record tracking
-- Green / yellow / red notification logic
-- CSV/XLSX import and export
-- Dashboard analytics
-- Dockerized backend, frontend and PostgreSQL environment
-
-**Backend:** FastAPI, SQLAlchemy, Alembic, PostgreSQL  
-**Frontend:** React, TypeScript, Vite  
-**Infrastructure:** Docker, Docker Compose
-
 ## Engineering Approach
 
 I care about systems that are understandable, maintainable and useful.
