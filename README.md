@@ -112,5 +112,5 @@ My development priorities:
 ## Contact
 
 - GitHub: [github.com/Kushovka](https://github.com/Kushovka)
-- Telegram: `@kushovka`
+- Telegram: `@kushovkaa`
 - Email: `kkushov2003@gmail.com`
